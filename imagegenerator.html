@@ -402,6 +402,7 @@ fetch("https://montagut.onrender.com/initiateBotFunctions/generateImage", {
 document.getElementById("resultImage").src=responseText.Responce[0].url;
 document.getElementById("outputArea").hidden=false;
 document.getElementById("outputArea").scrollIntoView();
+document.getElementById("loaderforimage").hidden = true;
 
 });
 
